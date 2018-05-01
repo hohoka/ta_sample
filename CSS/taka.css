@@ -1,0 +1,107 @@
+h1,h2,h3,h4,h5,{
+  margin: 0 0 100px 0;
+  padding: 20px 0;
+  font-family: arial;
+}
+p{
+  margin: 0 0 100px 0;
+  font-family: arial;
+}
+body {
+  background-color: #efefef;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+  font-family: arial;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header-navigation li a {
+  display: flex;
+  header-navigation: space-between;
+}
+
+
+
+/* pc　768px以上 */
+.wrap{
+	overflow: hidden;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main{
+	float: left;
+	width: 430px;
+	height: 300px;
+  font-size: 20px;
+	background-color: #fff;
+}
+.side-menu{
+	float: right;
+	width: 300px;
+	border-top: 1px solid #333;
+  background-color: #fff
+}
+.side-menu li a{
+	display: block;
+  letter-spacing: 5px
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #333;
+	text-decoration: none;
+	color: #333;
+}
+
+/* スマホ　767px以下 */
+@media only screen and (max-width: 767px) {
+	.wrap{
+		width: 100%;
+	}
+	.main{
+		/*　floatを解除 */
+    float: none;
+		width: 90%;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	.side-menu{
+		/*　floatを解除 */
+		float: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.card-contents {
+  padding: 40px;
+  display: block;
+  margin-bottom: 20px;
+}

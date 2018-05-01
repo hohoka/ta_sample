@@ -1,0 +1,51 @@
+h1,h2,h3,h4,h5,{
+  margin: 0 0 100px 0;
+  padding: 20px 0;
+  font-family: arial;
+}
+p{
+  margin: 0 0 100px 0;
+  font-family: arial;
+}
+body {
+  background-color: #FFFFFF;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  font-family: arial;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header-navigation li a {
+  display: flex;
+  header-navigation: space-between;
+}
+.syashin-list {
+  padding: 40px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
